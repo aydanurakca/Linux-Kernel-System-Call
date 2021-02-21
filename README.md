@@ -11,19 +11,19 @@ Right Usage:
 -p takes process id and prints the details of it
 -k takes process id and kill the process
 
-Example: processinfo.o
+Example: ./processinfo.o
 
 2) "-all"
 This lists all the processes and some information about each process.
 
-Example: processinfo.o -all
+Example: ./processinfo.o -all
 
 3) "-p processId"
 This shows the commandline of the given process.
 
-Example: processinfo.o -p 1425
+Example: ./processinfo.o -p 1425
 
 4) "-k processId"
 This kills the given process.
 
-Example: processinfo.o -k 1425
+Example: ./processinfo.o -k 1425
