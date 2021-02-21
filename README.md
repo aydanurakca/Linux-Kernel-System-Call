@@ -27,3 +27,7 @@ Example: ./processinfo.o -p 1425
 This kills the given process.
 
 Example: ./processinfo.o -k 1425
+
+
+In syscall_64.tbl	__335		64		processinfo		__x64_sys_processinfo__ is added.
+In syscalls.h    __asmlinkage long sys_processinfo(char * all_processes, char* process_id, int kill_id, char* commandline, char* argument)__ is added.
